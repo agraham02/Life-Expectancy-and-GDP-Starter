@@ -1,34 +1,40 @@
-# Life Expectancy and GDP Analysis
+# 🌍 Life Expectancy vs. GDP Analysis
 
-## Project Overview
+## 📊 Project Overview
 
-This project analyzes the relationship between life expectancy and GDP across different regions and years. The primary data source is a CSV file (`all_data.csv`), which is processed and visualized in a Jupyter Notebook (`life_expectancy_gdp.ipynb`). This was completed as part of Codecademy's Data Scientist: Machine Learning Specialist course.
+This project explores the relationship between **life expectancy** and **GDP** across various countries, regions, and years. Using real-world data from `all_data.csv`, I processed and visualized trends using Python in a Jupyter Notebook (`life_expectancy_gdp.ipynb`). This project was completed as part of Codecademy's **Data Scientist: Machine Learning Specialist** career path.
 
-## Learning Goals and Objectives
+## 🎯 Learning Goals
 
--   **Data Exploration:** Gain experience in loading, cleaning, and exploring real-world datasets.
--   **Data Aggregation:** Learn how to compute aggregated metrics such as average life expectancy and GDP by year.
--   **Data Visualization:** Develop skills in creating scatter plots to visualize relationships using matplotlib.
--   **Analytical Skills:** Understand how to interpret and analyze data trends to draw meaningful conclusions.
+- **Data Exploration**: Practice loading, cleaning, and examining real-world datasets using Python and Pandas.
+- **Data Aggregation**: Learn how to compute summary statistics like average GDP and life expectancy by year.
+- **Data Visualization**: Build meaningful scatter plots using Matplotlib to show relationships in the data.
+- **Data Analysis**: Draw insights by interpreting trends between economic indicators and public health.
 
-## What I Did
+## 🔧 What I Did
 
--   **Data Loading:** Imported the CSV dataset containing global data on life expectancy and GDP.
--   **Data Processing:** Calculated average values for life expectancy and GDP by year.
--   **Visualization:** Created a scatter plot to display the relationship between life expectancy and GDP.
--   **Insights:** Analyzed the scatter plot to observe trends and potential correlations between economic and health indicators.
+- **Loaded the Dataset**: Imported a global dataset containing GDP and life expectancy figures.
+- **Processed the Data**: Cleaned the data and computed averages grouped by year and country.
+- **Visualized Trends**: Created scatter plots to visualize the relationship between GDP and life expectancy.
+- **Extracted Insights**: Analyzed patterns to better understand how a country's wealth might impact longevity.
 
-## What I Learned
+## 🧠 What I Learned
 
--   **Pandas for Data Processing:** Improved skills in data manipulation, including grouping and averaging data.
--   **Matplotlib for Visualization:** Enhanced my ability to create clear, informative plots that effectively communicate data trends.
--   **Analytical Reasoning:** Gained a deeper understanding of how socioeconomic factors like GDP can correlate with public health indicators such as life expectancy.
--   **Project Workflow:** Understood the importance of documenting and organizing code, analyses, and findings in a cohesive manner.
+- **Pandas for Data Analysis**: Gained hands-on experience with data grouping, aggregation, and transformation.
+- **Matplotlib for Visualization**: Learned to create effective visualizations that tell a story with the data.
+- **Critical Thinking**: Practiced interpreting data-driven relationships between socioeconomic and health indicators.
+- **Project Structure**: Strengthened skills in organizing Jupyter Notebooks to communicate findings clearly.
 
-## How to Run the Project
+📄 I wrote a summary of this project in my [Medium article](https://medium.com/@ahmadgrahamdev/does-a-countrys-wealth-impact-how-long-people-live-ff3adbb429a2):  
+**"Does a Country's Wealth Impact How Long People Live?"**
 
-1. Open the `life_expectancy_gdp.ipynb` notebook in Visual Studio Code or a Jupyter Notebook interface.
-2. Ensure that `all_data.csv` is in the correct directory.
-3. Run the notebook cells sequentially to load the data, process it, and generate the visualizations.
+## 🚀 How to Run the Project
 
-Happy analyzing!
+1. Clone or download this repository.
+2. Open `life_expectancy_gdp.ipynb` in Jupyter Notebook or VS Code with the Jupyter extension.
+3. Make sure the dataset `all_data.csv` is in the same directory.
+4. Run the notebook cells from top to bottom to explore the data and see the visualizations.
+
+---
+
+Happy analyzing! 🎉
